@@ -30,7 +30,7 @@ function Navbar() {
             </svg>
           </button>
         </div>
-        <ul className={`hidden lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 ${isOpen ? 'block' : 'hidden'}`}>
+        <ul className={`hidden lg:flex lg:items-center lg:w-auto lg:space-x-6 ${isOpen ? 'block' : 'hidden'}`}>
           {menuItems.map((item) => (
             <li key={item.id}>
               <a className="text-sm text-gray-400 hover:text-gray-500" href={item.href}>{item.text}</a>
