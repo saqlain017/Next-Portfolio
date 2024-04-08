@@ -17,7 +17,7 @@ export const projectsData = [
         role: 'Frontend Developer',
         code: '',
         demo: '',
-        path : 'icreativez.vercel.app'
+        path : 'https://icreativez.vercel.app/'
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const projectsData = [
         role: 'Frontend Developer',
         code: '',
         demo: '',
-        path : 'docport.co'
+        path : 'https://docport.co'
     },
     {
         id: 4,
@@ -37,6 +37,6 @@ export const projectsData = [
         role: 'Frontend Developer',
         code: '',
         demo: '',
-        path : 'lms.icreativez.com'
+        path : 'https://lms.icreativez.com'
     }
 ];
