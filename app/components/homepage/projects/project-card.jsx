@@ -16,7 +16,11 @@ function ProjectCard({ project }) {
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
+<<<<<<< HEAD
         <Link href={project.path} target='_blank' passHref={true} className="text-center block ml-3 text-[#16f2b3] text-base lg:text-xl">
+=======
+        <Link href={project.path} passHref={true} target='_blank' className="text-center block ml-3 text-[#16f2b3] text-base lg:text-xl">
+>>>>>>> 697522754d45a2a8df8d0a66905dc7b18a80a4d4
           {project.name}
         </Link>
       </div>
